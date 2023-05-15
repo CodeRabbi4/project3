@@ -1,0 +1,821 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* header start*/
+header{
+    width:100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    background-color: white;
+    border-bottom: 1px solid rgba(109, 108, 108, 0.1);
+    z-index: 1;
+}
+header .logo{
+    position: absolute;
+    top:20px;
+    left: 17%;
+}
+header .nav{
+    position: absolute;
+    top:10px;
+    right: 19%;
+}
+header .nav ul{
+    list-style:none;
+   
+}
+header .nav ul li{
+    float: left;
+    padding: 14px;
+    text-transform: uppercase;
+    flex-wrap: nowrap;   
+}
+header .nav ul li a{
+    text-decoration: none;
+    color:rgb(39, 39, 39);
+    font-size: 11px;
+    font-weight: 550;
+    letter-spacing: 0.5px;
+    
+}
+header .nav ul li a:hover{
+    color: #8890FF;
+}
+#check{
+    display: none;
+}
+.checkbtn{
+    display: none;
+}
+/* header End*/
+
+/*Section 1 start*/
+.section1{
+    width: 100%;
+    height: 750px;
+    background-color: #F9F9FF;
+    display: flex;
+    justify-content: space-around;
+}
+.section1 div{
+    width:50%;
+    margin-top: 135px;
+}
+section .textarea{
+    margin-top:240px;
+    padding: 20px 50px;
+    margin-left: 250px;
+}
+.textarea h5{
+    font-weight: normal;
+    padding-bottom: 20px;
+    letter-spacing: 1px;
+}
+.textarea h1{
+    font-weight: bold;
+    font-size: 3.5rem;
+    margin-top: -10px;
+    color: rgb(50, 49, 49);
+    padding: 20px 0px;
+}
+.textarea p{
+    color: rgba(77, 76, 76, 0.6);
+    font-size: 15px;
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+.textarea button{
+    padding: 14px 28px;
+    color: white;
+    font-weight: 600;
+    background: linear-gradient(120deg,#8094FE,#67B6FC);
+    border:none;
+    outline: none;
+    cursor: pointer;
+}
+.textarea button:hover{
+    box-shadow:0px 5px 20px -5px rgb(129,147,254,0.8);
+    transition: all ease-in 0.3s;
+}
+.secimg{
+    margin-right: 250px;
+    margin-bottom: 50px;
+}
+
+/*Section 1 End*/
+/*Aboutsection Start*/
+.aboutsection{
+    width: 100%;
+    height: 600px;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.aboutsection .aboutimg{
+    width: 30%;
+    margin-left:90px
+}
+.aboutimg img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.aboutsection .abouttext{
+    width: 30%;
+    margin-left: -22%;
+    position: relative;
+}
+.abouttext h6{
+    font-weight: normal;
+    font-size: 15px;
+}
+.abouttext h1{
+    font-weight: bold;
+    font-size: 2.2rem;
+    color:rgb(44, 43, 43);
+    margin: 30px 0px;
+}
+.abouttext p{
+    font-size: 15px;
+    letter-spacing: 0.5px;
+    color: rgb(39, 39, 39,0.8);
+    width: 500px;
+    line-height: 22px;
+    margin: 40px 0px;
+}
+.abouttext a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+.abobtn{
+    padding: 14px 20px;
+    color: white;
+    font-weight: 600;
+    background: linear-gradient(120deg,#8094FE,#67B6FC);
+    border:none;
+    outline: none;
+}
+.abobtn:hover{
+    box-shadow: 5px 15px 30px -15px #6c84fc;
+}
+/*Aboutsection End*/
+
+/*Section 2 start*/
+.section2{
+    width: 100%;
+    height: 770px;
+    text-align: center;
+}
+.section2 h1{
+    font-size: 2.3rem;
+    color: rgba(0, 0, 0, 0.9);
+    line-height: 50px;
+}
+.section2 p{
+    font-size: 15px;
+    width: 630px;
+    margin: 5px auto;
+    color:rgba(0, 0, 0, 0.5)
+}
+.product{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 70px auto;
+}
+.productbox{
+    width: 350px;
+    height: 250px;
+    padding: 0px 30px;
+    margin: 0px 10px;
+}
+.productbox i{
+    font-size: 30px;
+    color: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+}
+.productbox h3{
+    color:rgba(0, 0, 0, 0.8);
+    margin: 20px 0px;
+    font-size: 20px;
+}
+.productbox p{
+    width: 310px;
+}
+.productbox:hover i{
+    color:#80c1f6;
+    transition: all ease 0.2s;
+}
+.productbox:hover h3{
+    color:#8193FF;
+    transition: all ease-in 0.2s;
+}
+
+/*Section 2 End*/
+
+/*Project Complete start*/
+.project{
+    width: 100%;
+    height: 320px;
+    background: linear-gradient(120deg,#8193FF,#66B8FC);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin-bottom: 50px;
+}
+.projectcom{
+    margin: 0px 90px;
+    padding-left: 20px;
+}
+.projectcom h1{
+    text-align: center;
+    font-weight: bold;
+    font-size: 2.3rem;
+}
+.projectcom p{
+    font-weight:normal;
+    font-size: 15px;
+    letter-spacing: 0.5px;
+}
+/*Project Complete End*/
+
+/* Section 3 Start*/
+.section3{
+    width: 100%;
+    height: 140vh;
+    display: flex;
+    flex-direction: column;
+}
+.section3 .project2text{
+    text-align: center;
+    margin-top: 80px;
+}
+.project2text h1{
+    font-size: 2.3rem;
+    color: rgba(0, 0, 0, 0.9);
+}
+.project2text p{
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.5);
+    margin-top: 10px;
+}
+.pro2nav{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 110px;
+}
+.pro2nav ul{
+    list-style: none;
+}
+.pro2nav ul li{
+    float: left;
+    font-size: 11px;
+    padding: 0px 17px;
+}
+.pro2nav ul li a{
+    text-decoration: none;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.9);
+}
+.pro2nav ul li a.aa{
+    color: #8490FF;
+}
+.pro2imgarea{
+    width: 80%;
+    height: 400;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 80px auto;
+    text-align: center;
+}
+.pro2img{
+    width: 370px;
+    height: 420px;
+}
+.pro2img figure{
+    width: 340px;
+    height: 339px;
+    background: linear-gradient(90deg,#7E98FF,#67B6FD);
+    overflow: hidden;
+    border-radius: 4px;
+}
+.pro2img figure img:hover{
+    opacity: 0.2;
+    transition: all ease-in-out 0.2s;
+}
+
+.pro2img h3{
+    font-size: 18px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.8);
+    margin-top: 16px;
+    margin-bottom: 4px;
+}
+.pro2img p{
+    font-size: 15px;
+    font-weight: normal;
+    color:rgba(0, 0, 0, 0.6);
+}
+/* Section 3 End*/
+
+/*section 4 start*/
+.section4{
+    width: 100%;
+    height: 530px;
+    background-color: #F9F9FF;
+
+}
+.cli{
+    text-align: center;
+    margin-top: 6%;
+}
+.cli h1{
+    font-size: 2.2rem;
+    color: rgba(22, 22, 22, 0.9);
+    letter-spacing: 0.5px;
+    margin: 10px auto;
+    padding-top: 100px;
+}
+.cli p{
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: 100px;
+    color: rgba(0, 0, 0, 0.5);
+}
+.clientbox{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: -10px;
+}
+.client{
+    width: 570px;
+    height: 180px;
+    background-color: white;
+    padding: 0px 50px;
+    margin: 0px 15px;
+    z-index: 1;
+}
+.client p{
+    margin-top: 25px;
+    line-height: 25px;
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 15px;
+}
+.client h3{
+    margin-top: 15px;
+    font-weight: bold;
+    color: rgba(31, 31, 31, 0.9);
+}
+.client p.face{
+    margin-top: 8px;
+}
+.client:hover h3{
+    color:#8094FE;
+}
+/*section 4 End*/
+
+/*section 5 start*/
+.section5{
+    width: 100%;
+    height: 800px;
+}
+.sec5text{
+    text-align: center;
+    margin-top: 100px;
+}
+.sec5text h1{
+    font-size: 2.3rem;
+    color: rgba(14, 14, 14, 0.9);
+    margin:16px auto;
+    font-weight: bold;
+}
+.sec5text p{
+    font-size: 15px;
+    color:rgba(0, 0, 0, 0.5)
+}
+.section5 .plan{
+    width: 65%;
+    height: 570px;
+    background-color: #F9F9FF;
+    margin:90px auto;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding: 0px 20px;
+}
+.section5 .plan .planbox{
+    width: 24%;
+    height: 570px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+}
+.planbox .cir{
+    width: 135px;
+    height: 135px;
+    border:30px solid #E2E5FF;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 70px;
+    font-size: 35px;
+    font-weight: normal;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+.planbox h3{
+    margin: 15px auto;
+    color: rgba(17, 17, 17, 0.9);
+}
+.planbox p{
+    font-size: 15px;
+    color:rgba(0, 0, 0, 0.6);
+    margin: 13px auto;
+}
+.planbox hr{
+    opacity: 0.2;
+}
+.planbox h2{
+    margin-top: 35px;
+    font-size: 2.2rem;
+    color: rgba(17, 17, 17, 0.9);
+}
+.planbox input{
+    width: 220px;
+    height: 40px;
+    background: white;
+    color: black;
+    font-weight: bold;
+    border:none;
+    outline: none;
+    font-size: 15px;
+    text-align: center;
+    display: none;
+    margin: 0 auto;
+    cursor: pointer;
+}
+.planbox:hover input{
+    display: block;
+    transform: translateY(-40px);
+    z-index: 1;
+}
+.planbox:hover{
+    background:linear-gradient(80deg,#5f89f4,#65B9FC);
+    transform: scale(1.2, 1.05);
+    transition:all ease 0.4s;
+    color: white;
+}
+.planbox:hover h3{
+    color: white;
+    font-size: 15px;
+}
+.planbox:hover p{
+    color: white;
+    font-size: 13px;
+    font-weight: normal;
+}
+/*section 5 End*/
+
+/* Footer Start */
+footer{
+    width: 100%;
+    height: 400px;
+    background-color: rgb(4,9,30);
+    margin-top: 50px;
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer .foot{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.foot .foot1{
+    width: 40%;
+    width: auto;
+    margin-left: 30px;
+}
+.foot .foot1 h3{
+    font-size:18px;
+    margin: 25px auto;
+}
+.foot .foot1 p{
+    font-size: 15px;
+    color: rgba(146, 142, 142, 0.7);
+    margin: 20px auto;
+    font-weight:normal;
+    line-height: 25px;
+}
+.foot .foot1 .p1{
+    width: 450px;
+}
+span{
+    color:#5f89f4;
+}
+.foot1 .input{
+    width: 420px;
+    height: 40px;
+    margin-bottom: 50px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+}
+.foot1 .input input{
+    width: 89%;
+    height: 40px;
+    margin-bottom: 30px;
+    padding: 5px 20px;
+    font-size: 15px;
+    font-weight: normal;
+    border:none;
+    outline: none;
+    
+}
+.input .fa-solid{
+    width: 50px;
+    height: 40px;
+    background-color: #6881fd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    cursor: pointer;
+}
+.foot1 i{
+    font-size: 14px;
+    padding: 5px 7px;
+    margin-bottom: 60px;
+    cursor: pointer;
+}
+.foot1 .fa-brands:hover{
+    color: #7E98FF;
+}
+
+/* Footer End */
+
+/* Mobile view */
+@media (max-width:768px){
+    header{
+        width: 100%;
+        height: 70px;
+        top: 0;
+    }
+    header .logo{
+        margin-left: -30px;
+    }
+    header .logo img{
+        width: 120px;
+    }
+    .checkbtn{
+        display: block;
+        margin-right: -40px;
+        font-size: 24px;
+        margin-top:15px;
+        color:rgba(0, 0, 0, 0.9);
+    }
+    .nav ul{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background-color: rgb(250, 248, 248);
+        top:70px;
+        left:-200%;
+    }
+    .nav ul li{
+        clear: both;
+        margin-top: 10px;
+        line-height: 20px;
+        margin-left: 20px;
+    }
+    #check:checked ~ ul{
+        left: 0;
+        transition: all ease-in-out 0.10s;
+    }
+    header .nav ul li a{
+        font-size: 15px;
+    }
+    .section1{
+        width: 100%;
+        height: auto;
+        display:block;
+        margin-top: -180px;
+    }
+    .section1 .textarea{
+        width: 100%;
+        margin-left: -20px;
+    }
+    .section1 .textarea h1{
+        font-size: 40px;
+    }
+    .section1 .textarea p{
+        width: 85%;
+        font-size: 13px;
+    }
+    .section1 .textarea button{
+        width: 150px;
+        height: 40px;
+        font-size: 11px;
+    }
+    .section1 .secimg{
+        width: 100%;
+        margin-top: -10px;
+    }
+    .section1 .secimg img{
+        width: 300px;
+        margin-left: 35px;
+    }
+    .aboutsection{
+        width: 100%;
+        height: 650px;
+        display: block;
+    }
+    .aboutsection .aboutimg{
+        width: 90%;
+        margin-left: 20px;
+    
+    }
+    .aboutimg img{
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+    .aboutsection .abouttext{
+        width: 90%;
+        margin-left: 30px;
+    }
+    .abouttext h1{
+        font-size: 30px;
+    }
+    .abouttext p{
+        width: 85%;
+        font-size: 13px;
+    }
+    .abouttext .abobtn{
+        width: 170px;
+        height: 30px;
+        font-size: 11px;
+        margin-left: 60px;
+    }
+    .section2{
+        width: 100%;
+        height: auto;
+        margin-top: 100px;
+    }
+    .section2 h1{
+        font-size: 30px;
+    }
+    .section2 p{
+        width: 90%;
+        font-size: 14px;
+    }
+    .section2 .product{
+        width: 80%;
+    }
+    .section2 .product .productbox{
+        display: block;
+        margin-left: -10px;
+        text-align: center;
+    }
+    .productbox p{
+        margin-left: 18px;
+        font-size: 11px;
+    }
+    .project{
+        width: 100%;
+        height: 80px;
+        margin-top: -50px;
+
+    }
+    .project .projectcom{
+        padding: 8px;
+        margin: 0;
+        
+    }
+    .projectcom h1{
+        font-size: 18px;
+    }
+    .projectcom p{
+        font-size: 10px;
+        text-align: center;
+    }
+    .section3{
+        width: 100%;
+        height: auto;
+    }
+    .project2text h1{
+        font-size: 25px;
+    }
+    .project2text p{
+        font-size: 14px;
+    }
+    .project2text .pro2nav{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .pro2nav ul li{
+        margin: 0;
+        padding: 0px 10px;
+    }
+    .pro2img figure{
+        width: 320px;
+        height: 319px;
+    }
+    .pro2img figure img{
+        width: 320px;
+    }
+    .section4{
+        width: 100%;
+        height: auto;
+        margin-top: -50px;
+    }
+    .section4 h1{
+        font-size: 24px;
+    }
+    .section4 .cli p{
+        font-size: 13px;
+        width: 90%;
+        margin: 40px auto;
+    }
+    .clientbox{
+        width: 90%;
+        display: block;
+    }
+    .client{
+        width: 100%;
+        height: 250px;
+        margin-left: -2px;
+    }
+    .client p{
+        font-size: 14px;
+        margin-top: 15px;
+    }
+    .section5{
+        width: 100%;
+        height:auto;
+    }
+
+    .section5 .sec5text h1{
+        font-size: 33px;
+    }
+    .section5 .sec5text p{
+        font-size: 14px;
+        width: 80%;
+        margin: 0px auto;
+    }
+    .section5 .plan{
+        position:relative ;
+        display: block !important;
+        width: 85%;
+        margin: 50px auto;
+        padding: 0;
+        height: auto;
+    }
+    .planbox{
+        width: 80% !important;
+        height: 600px;
+        margin: 50px auto; 
+    }
+    
+    footer{
+        width: 100%;
+        height: auto;
+        display: block!important;
+    }
+    footer .foot{
+        position: relative;
+        width: 90%;
+        display: block;
+    }
+    .foot .foot1 h3{
+        margin-top: 90px;
+        padding-top: 10px;
+    }
+    .foot .foot1 .p1{
+        width: 90%;
+        margin-left: -3px;
+    }
+    .foot1 .input{
+        width: 99%;
+    }
+}
